@@ -1,0 +1,30 @@
+:root{
+    --primary-color:teal;
+    --secondary-color: rgb(167, 84, 101);
+
+}
+
+h1{
+    color:var(--primary-color);
+}
+
+h2{
+    color:var(--secondary-color);
+}
+button{
+
+    border-style:none;
+    padding:4px;
+    font-family: 'STIX Two Text', serif;
+}
+
+#primary{
+
+    background-color: var(--primary-color);
+    color:white;
+}
+
+#secondary{
+
+    background-color: var(--secondary-color);
+}
